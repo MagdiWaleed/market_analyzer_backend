@@ -18,9 +18,9 @@ def getCompetitorResearcherAgent():
     llm_with_structured_output = llm.with_structured_output(CompetitorCompanyList)
 
     def competitivesFinder(state:AgentState)->AgentState:
-        """An agent can find all competitors companies in a given digital market.""" 
+        """An agent can find all competitors companies in a given market.""" 
         sys_prompt = f"""
-        You are a market analyzer Agent, your task is to find a list of competitors companies in {state['marketIntent'].marketType} digital market, the domanating companies.
+        You are a market analyzer Agent, your task is to find a list of competitors companies in {state['marketIntent'].marketType} market, the domanating companies.
         select from 5 to 10 at most companies don't increase than that number and foucs on the dominatings companies.
         {state['marketIntent'].marketType} market is: {state['marketIntent'].description}
         Tools:
@@ -28,7 +28,7 @@ def getCompetitorResearcherAgent():
         Instructions:
             - Use Think-> Act-> Observe patter and use the tools only 2->4 times until you reach your goal.
             - Always search in KSA regions.
-            - YOU MUST FINDS AND LIST ALL THE COMPANIES IN THAT DIGITAL MARKET.
+            - YOU MUST FINDS AND LIST ALL THE COMPANIES IN THAT market.
         output:
             - List of Companies names. in this format:
                 1 - Company Name: 'The name of the competitive company'                

@@ -21,10 +21,10 @@ def getInhancerAgent():
 
 
     def main (state:AgentState)->AgentState:
-        """Agent responsible of identifying what the user really intense, And identifying which digital market is meaning"""
+        """Agent responsible of identifying what the user really intense, And identifying which market is meaning"""
         sys_prompt = """
         You are a helpful agent that analysis user input and identifying which market he/she is asking for eg.(online shoping like Amazon, Noon) or eg. (food delivary like Talabat, Marsool) etc...
-        your task is identifying which digital market the user diser to outsmart his/her competitors in it.
+        your task is identifying which market the user diser to outsmart his/her competitors in it.
         
         Tools:
             - search: Usefull tool for searching the internet.
@@ -34,7 +34,7 @@ def getInhancerAgent():
             - Always search in KSA regions.
             - The name of the market must be searchable which means it's actual market with a lot of competitors there, And that market has a lot of product ion it. 
         Output:
-            Identifying what is the digital market the user targeting and is exactlly the product he/she want to creaete, and description about that market, in this format:
+            Identifying what is the market the user targeting and is exactlly the product he/she want to creaete, and description about that market, in this format:
             Market:
             Product:
             desciription:

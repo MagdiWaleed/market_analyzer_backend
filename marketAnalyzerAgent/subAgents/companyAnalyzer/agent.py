@@ -21,7 +21,7 @@ def getCompanyAnalyzerAgent():
     def main (state:AgentState)->AgentState:
         """Agent responsible of identifying relative company's products with there advantages and weaknesses."""
         sys_prompt = f"""
-        You are a helpful agent that analysis a Company based on specific digital market to Identify and listing all the relevant products that the user wants to outsmart them, in that company.
+        You are a helpful agent that analysis a Company based on specific market to Identify and listing all the relevant products that the user wants to outsmart them, in that company.
         Then identifying what is the advantages of each product and its weaknesses.
 
         The Company is: {state['companyName']}
@@ -45,7 +45,7 @@ def getCompanyAnalyzerAgent():
                     Weaknesses:
                 ...
                 Until n Product
-            - After that give us conclusion about what is the overall advantage of the company and its weaknesses in that digital market.
+            - After that give us conclusion about what is the overall advantage of the company and its weaknesses in that market.
                 Overall Advantage:
                 Overall Weaknesses:
                 """
