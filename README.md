@@ -76,4 +76,4 @@ python run.py
 
 ## 📬 Contact
 
-If you find this project useful, feel free to ⭐ star the repo and connect on [LinkedIn](www.linkedin.com/in/your-linkedin).
+If you find this project useful, feel free to ⭐ star the repo and connect on [LinkedIn](www.linkedin.com/in/magdi-waleed).
