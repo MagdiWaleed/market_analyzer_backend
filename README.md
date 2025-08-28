@@ -47,7 +47,7 @@ python run.py
 * **Backend** → Flask REST API
 * **Language** → Python
 * **Region Focus** → Saudi Arabia Market
-* **Frontend** → Streamlit (frontend)
+* [**Frontend**](https://github.com/MagdiWaleed/market_analyzer_frontend) → Streamlit (frontend)
 
 ---
 
@@ -67,13 +67,13 @@ python run.py
 
 ## 🚀 Future Improvements
 
-* Expand to other regional markets
+* Make the convesation expandable for further analysis
+* Performe RAG in the received analysis
 * Add user authentication and profiles
-* Integrate dynamic real-time product data sources
 * Dockerize backend for cloud deployment
 
 ---
 
 ## 📬 Contact
 
-If you find this project useful, feel free to ⭐ star the repo and connect on [LinkedIn](www.linkedin.com/in/magdi-waleed).
+If you find this project useful, feel free to ⭐ star the repo and connect on [LinkedIn](https://linkedin.com/in/magdi-waleed).
