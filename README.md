@@ -32,6 +32,9 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+Create .env and add:
+>* GOOGLE_API_KEY = <YOUR_GOOGLE_API_KEY>
+>* TAVILY_API_KEY = <YOUR_TRAVILY_API_KEY>
 
 Run the backend API:
 
